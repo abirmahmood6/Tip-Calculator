@@ -1,0 +1,89 @@
+body {
+    background-color: rgba(230, 208, 246, 0.933);
+}
+
+
+.container {
+ width: 400px;
+ margin: 100px;
+ margin-left: auto;
+ margin-right: auto;
+ border: 2px solid rgb(31, 36, 38);
+ border-radius: 5px;
+}
+
+#title {
+margin: auto;
+text-align: center;
+background-color: black;
+color: aliceblue;
+}
+
+.part1{
+    background-color: rgb(105, 200, 238);
+    padding: 10px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.737);
+    color: white;
+}
+.part2 {
+    background-color: rgb(250, 128, 114);
+    padding: 10px;
+    color: white;
+}
+
+.tip {
+ margin-top: 0.7rem;
+ display: grid;
+ grid-template-columns: 144px 144px;
+ row-gap: 2em;
+ column-gap: 18px;
+ color: white;
+ margin-bottom: 2rem;
+ margin-left: 40px;
+}
+
+
+.tips {
+ border: 2px solid white;
+ border-radius: 5px;
+ background-color: rgba(0, 0, 0, 0.239);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+
+.tips-custom {
+ border: none;
+ text-align: center;
+}
+
+#button {
+text-align: center;
+font-size: 18px;
+border-radius: 5px;
+cursor:pointer;
+}
+
+#total{
+    padding: 10px;
+   font-size: 20px;
+}
+
+.total_tip {
+display: inline;
+   margin-left: 200px;
+   
+}
+
+.total_bill {
+    display: inline;
+       margin-left: 220px;
+    }
+    
+#per_person {
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
