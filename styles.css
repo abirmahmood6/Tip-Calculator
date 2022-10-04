@@ -44,7 +44,8 @@ color: aliceblue;
 
 
 .tips {
- border: 2px solid white;
+ color: rgb(255,255,255);
+ border-color:  rgba(220, 220, 220, 0.546);
  border-radius: 5px;
  background-color: rgba(0, 0, 0, 0.239);
  display: flex;
@@ -55,6 +56,7 @@ color: aliceblue;
 
 .tips-custom {
  border: none;
+ border-radius: 2px;
  text-align: center;
 }
 
@@ -87,3 +89,14 @@ display: inline;
     font-size: 18px;
 }
 
+#bill_amount {
+    margin-left: 16px;
+}
+
+#bill_input, #customer_input {
+    margin: 2px;
+}
+
+#bill_input {
+    margin-left: 26px;
+}
