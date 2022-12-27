@@ -1,7 +1,6 @@
 body {
-    background-color: rgba(230, 208, 246, 0.933);
+ background-color: rgba(230, 208, 246, 0.933);
 }
-
 
 .container {
  width: 400px;
@@ -13,22 +12,23 @@ body {
 }
 
 #title {
-margin: auto;
-text-align: center;
-background-color: black;
-color: aliceblue;
+ margin: auto;
+ text-align: center;
+ background-color: black;
+ color: white;
 }
 
 .part1{
-    background-color: rgb(105, 200, 238);
-    padding: 10px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.737);
-    color: white;
+ background-color: rgb(105, 200, 238);
+ padding: 10px;
+ border-bottom: 5px solid rgba(255, 255, 255, 0.737);
+ color: white;
 }
+
 .part2 {
-    background-color: rgb(250, 128, 114);
-    padding: 10px;
-    color: white;
+ background-color: rgb(250, 128, 114);
+ padding: 10px;
+ color: white;
 }
 
 .tip {
@@ -37,13 +37,12 @@ color: aliceblue;
  grid-template-columns: 144px 144px;
  row-gap: 2em;
  column-gap: 18px;
- color: white;
+ color: rgb(255, 255, 255);
  margin-bottom: 2rem;
  margin-left: 40px;
 }
 
-
-.tips {
+button {
  color: rgb(255,255,255);
  border-color:  rgba(220, 220, 220, 0.546);
  border-radius: 5px;
@@ -54,49 +53,46 @@ color: aliceblue;
  cursor: pointer;
 }
 
-.tips-custom {
- border: none;
- border-radius: 2px;
- text-align: center;
-}
-
 #button {
-text-align: center;
-font-size: 18px;
-border-radius: 5px;
-cursor:pointer;
+ text-align: center;
+ font-size: 18px;
+ border-radius: 5px;
+ cursor:pointer;
 }
-
-#total{
-    padding: 10px;
-   font-size: 20px;
-}
-
-.total_tip {
-display: inline;
-   margin-left: 200px;
-   
-}
-
-.total_bill {
-    display: inline;
-       margin-left: 220px;
-    }
-    
+ 
 #per_person {
-    padding: 10px;
-    margin-top: -10px;
-    font-size: 18px;
+ padding: 10px;
+ margin-top: -10px;
+ font-size: 18px;
 }
 
 #bill_amount {
-    margin-left: 16px;
+ margin-left: 16px;
 }
 
-#bill_input, #customer_input {
-    margin: 2px;
+#total_bill, #total_customer {
+ margin: 2px;
 }
 
-#bill_input {
-    margin-left: 26px;
+#total_bill {
+ margin-left: 26px;
+}
+
+#display{
+ padding: 10px;
+ font-size: 20px;
+}
+
+#display_tip {
+ display: inline;
+ margin-left: 150px;   
+}
+
+#display_bill {
+ display: inline;
+ margin-left: 170px;
+}
+
+button:focus {
+background-color:blueviolet;
 }
